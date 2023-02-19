@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+
+.head-content{
+    text-align: center;
+    justify-content: center;
+
+}
+.head-heading{
+    font-size: 50px;
+    margin-bottom: 14px;
+    font-family: Lora, serif;
+    font-weight: 500;
+}
+.head-subheading{
+    /* color: hsla(0, 0%, 100%, 0.63); */
+    color: #c7c7c7;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Oxygen, serif;
+    margin-bottom:30px;
+}
+.button{
+    padding: 12px 31px;
+    border-radius: 3px;
+    background-color: #dd783f;
+    transition: background-color 200ms ease, color 200ms ease;
+    font-family: Oxygen, serif;
+    font-weight: 300;
+}
+.head-button{
+    font-size: 14px;
+    opacity: 1;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.head-button:hover{
+    background-color: #f57328;
+}
+.section1{
+    margin: 150px;
+}
+.head-section{
+    margin-bottom: 150px;
+}

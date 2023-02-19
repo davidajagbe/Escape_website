@@ -1,0 +1,59 @@
+.main-section{
+    padding-top: 0px;
+    padding-bottom: 89px;
+    background-color: #f7f7f7
+}
+.section-heading{
+    display: block;
+    text-align: center;
+}
+
+.section-title{
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.section-title h2{
+    margin-bottom: 10px;
+    font-family: Oxygen, sans-serif;
+    color: #2e2e2e;
+}
+.divider-rule{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .main-section {
+        padding: 40px 10px;
+    }
+}

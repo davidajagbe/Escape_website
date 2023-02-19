@@ -1,0 +1,14 @@
+.head{
+    /* background-color: #222; */
+}
+.navlist{
+    color: #f7f7f7;
+    font-size: 14px;
+    font-family: Oxygen, sans-serif;
+
+}
+#navbar-brand{
+    font-size: 26px;
+    color: #222;
+    font-family: Lora, serif;
+}
