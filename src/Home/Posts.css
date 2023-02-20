@@ -1,3 +1,10 @@
+body {
+    font-family: Lora, serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .main-section{
     padding-top: 0px;
     padding-bottom: 89px;
@@ -20,16 +27,96 @@
     margin-bottom: 10px;
     font-family: Oxygen, sans-serif;
     color: #2e2e2e;
+    font-size: 20px;
 }
 .divider-rule{
-
+    display: block;
+    width: 20%;
+    height: 1px;
+    margin: 16px auto;
+    background-color: #dedede;
+    list-style-type: lower-alpha;
 }
 
+.f-col {
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.f-col{
+    width: 50%;
+}
+.featured-wrapper{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: transform 200ms ease, -webkit-transform 200ms ease;
+}
+.featured-wrapper:hover{
+    transform: translate(0px, -5px);
+}
+.f-inline-block{
+    width: 100%;
+}
 
+a {
+    color: #dd783f;
+    text-decoration: none;
+    background-color: transparent;
+}
 
+a:hover{
+    outline: 0;
+}
+.category-tag{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 10;
+    padding: 7px 9px 6px;
+    border-radius: 2px;
+    background-color: #a872b7;
+    font-family: Oxygen, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.featured-image{
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 280px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+    background-image: url(../img/featured-image.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
 
+.featured-text{
+    padding: 60px 20px 62px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.6) 46%, rgba(0, 0, 0, 0.76));
+}
+.featured-title{
+    display: block;
+    margin-bottom: 4px;
+    padding-right: 20px;
+    color: #fff;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 300;
 
-
+}
 
 
 
@@ -55,5 +142,29 @@
 @media screen and (max-width: 991px) {
     .main-section {
         padding: 40px 10px;
+    }
+    .section-heading{
+        text-align: center;
+    }
+    .featured-post{
+        max-width: 728px;
+    }
+    .featuredthumbnail {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .category-tag{
+        z-index: 10;
+    }
+    .featured-text{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding-top: 70px;
+    }
+    .featured-title {
+        font-size: 23px;
     }
 }
