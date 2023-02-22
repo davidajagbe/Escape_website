@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+
+.head-content{
+    text-align: center;
+    justify-content: center;
+
+}
+.head-heading{
+    font-size: 50px;
+    margin-bottom: 14px;
+    font-family: Lora, serif;
+    font-weight: 500;
+    color: #fff;
+}
+.head-subheading{
+    /* color: hsla(0, 0%, 100%, 0.63); */
+    color: #c7c7c7;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Oxygen, serif;
+    margin-bottom:30px;
+}
+.button{
+    padding: 12px 31px;
+    border-radius: 3px;
+    background-color: #dd783f;
+    transition: background-color 200ms ease, color 200ms ease;
+    font-family: Oxygen, serif;
+    font-weight: 300;
+}
+.head-button{
+    font-size: 14px;
+    opacity: 1;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.head-button:hover{
+    color: #fff;
+    background-color: #f57328;
+}
+/* .section1{
+    margin: 150px;
+
+} */
+.head-section{
+    position: relative;
+    height: 500px;
+    padding-top: 184px;
+    background-image: linear-gradient(135deg, rgba(30, 33, 33, 0.82) 1%, rgba(32, 32, 32, 0.14) 98%), url(../img/home-img.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+}
