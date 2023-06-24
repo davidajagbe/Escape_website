@@ -5,6 +5,8 @@
     background-image: linear-gradient(180deg, rgba(35, 47, 56, 0.47), rgba(35, 47, 56, 0.31) 99%), url(https://assets.website-files.com/5e4b192…/5e4b192…_footer-bg.jpg);
     background-position: 0px 0px, 50% 0px;
     background-size: auto, cover;
+    font-family: Oxygen, sans-serif;
+
 }
 .main-section.f-section{
     padding-top: 62px;
@@ -20,7 +22,6 @@
 h2 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: Oxygen, sans-serif;
     color: #2e2e2e;
     font-size: 25px;
     line-height: 30px;
@@ -42,6 +43,21 @@ h2 {
 /* .w-form {
     margin: 0 0 15px;
 } */
+
+#button-addon2:hover{
+    background-color: #262a2e;
+    color: white;
+}
+.form-control{
+    padding: 0.95rem 0.95rem;
+    font-size: 0.9rem;
+}
+.form-control:hover{
+    box-shadow: none;
+}
+.form-control::placeholder{
+    color: #afb7bc;
+}
 
 
 
